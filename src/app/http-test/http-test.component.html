@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Time</th>
+  </tr> 
+  <tr *ngFor="let file of mod">
+    <td>{{file.title}}</td>
+    <td>{{file.description}}</td>
+    <td>{{file.time_added}}</td>
+  </tr>
+</table>
